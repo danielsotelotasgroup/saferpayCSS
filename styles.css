@@ -63,3 +63,8 @@ html body .page main .icon-hint, html body form[class^=page-] main .icon-hint {
   overflow: hidden;
   position: relative;
 }
+
+html body footer .navitem.navitem-abort {
+  text-align: center;
+  visibility: hidden;
+}
