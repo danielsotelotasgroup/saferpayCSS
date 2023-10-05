@@ -53,7 +53,13 @@ html body .page main .icon-hint, html body form[class^=page-] main .icon-hint {
   grid-template-columns: auto auto;
 }
 
-element.style {
-  visibility: visible;
-  margin-left: 15px;
+.btn.btn-next {
+  font-size: 25px;
+  background: #e10000;
+  border: 1px solid #e10000;
+  border-radius: 10px;
+  color: #fff;
+  min-width: 9rem;
+  overflow: hidden;
+  position: relative;
 }
