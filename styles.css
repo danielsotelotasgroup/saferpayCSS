@@ -74,3 +74,16 @@ html body footer .navitem.navitem-abort {
   margin-left: 10px;
   margin-right: 10px;
 }
+
+.page-card main fieldset {
+  padding: 0 0 0rem;
+  border: none;
+}
+
+html body .page.page-hosted fieldset legend, html body form[class^=page-].page-hosted fieldset legend {
+  display: none;
+}
+
+div#CardData {
+  margin-top: 15px;
+}
