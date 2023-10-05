@@ -19,9 +19,41 @@ input.input-error, input.input-validation-error, input.is-touched.is-invalid, se
   color: #e10000!important;
 }
 
+.invalid-feedback {
+  color: #e10000;
+  font-size: 80%;
+}
+
 input:focus, select:focus {
   outline: 0;
   border-color: #000;
   border-width: 2px;
   transition-duration: .2s;
+}
+
+
+html body .page main .icon-hint, html body form[class^=page-] main .icon-hint {
+  background-color: #787878;
+  border-radius: 50%;
+  color: #fff;
+  display: inline-block;
+  font-weight: 700;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  width: 2rem;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+element.style {
+  visibility: visible;
+  margin-left: 15px;
 }
