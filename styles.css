@@ -68,3 +68,9 @@ html body footer .navitem.navitem-abort {
   text-align: center;
   visibility: hidden;
 }
+
+.page .form-group .form-input {
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
