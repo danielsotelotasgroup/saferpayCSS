@@ -17,6 +17,7 @@ fieldset legend {
 input.input-error, input.input-validation-error, input.is-touched.is-invalid, select.input-error, select.input-validation-error, select.is-touched.is-invalid {
   border-color: #e10000!important;
   color: #e10000!important;
+  border-radius: 10px;
 }
 
 .invalid-feedback {
