@@ -99,9 +99,25 @@ div#CardData {
 .page .form-group .form-input input, .page .form-group .form-input select {
   font-size: 1.5rem;
   border-radius: 10px;
+  color: #333;
+  opacity: 0.8;
+  font-weight: 100;
 }
 
 .page-card main {
   padding: 0 0 0rem;
   overflow: auto;
+}
+
+.floating-label {
+  position: absolute;
+  z-index: 10;
+  margin: -10px 10px;
+  background-color: #fff;
+  padding: 0 5px 0 5px;
+  color: #787878;
+  border-radius: 4px;
+  font-size: 14px;
+  display: inherit;
+  white-space: nowrap;
 }
