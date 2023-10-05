@@ -10,6 +10,18 @@ html {
   touch-action: manipulation;
 }
 
-.form-group.has-value input:focus {
-  border-color: black;
+fieldset legend {
+  display: none;
+}
+
+input.input-error, input.input-validation-error, input.is-touched.is-invalid, select.input-error, select.input-validation-error, select.is-touched.is-invalid {
+  border-color: #e10000!important;
+  color: #e10000!important;
+}
+
+input:focus, select:focus {
+  outline: 0;
+  border-color: #000;
+  border-width: 2px;
+  transition-duration: .2s;
 }
