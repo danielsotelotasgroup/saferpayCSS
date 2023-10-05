@@ -63,6 +63,7 @@ html body .page main .icon-hint, html body form[class^=page-] main .icon-hint {
   min-width: 9rem;
   overflow: hidden;
   position: relative;
+  text-transform: capitalize;
 }
 
 html body footer .navitem.navitem-next {
@@ -98,4 +99,9 @@ div#CardData {
 .page .form-group .form-input input, .page .form-group .form-input select {
   font-size: 1.5rem;
   border-radius: 10px;
+}
+
+.page-card main {
+  padding: 0 0 0rem;
+  overflow: auto;
 }
