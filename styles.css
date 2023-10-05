@@ -10,35 +10,6 @@ html {
   touch-action: manipulation;
 }
 
-.form-input {
-  position: relative;
+.form-group.has-value input:focus {
+  border-color: black;
 }
-
-.floating-label {
-  position: absolute;
-  top: 50%;
-  left: 10px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  transition: transform 0.2s ease, font-size 0.2s ease, color 0.2s ease;
-  font-size: 16px;
-  color: #aaa;
-}
-
-input {
-  padding: 10px;
-  border: 1px solid #ccc;
-  font-size: 16px;
-  transition: border-color 0.2s ease;
-}
-
-input:focus + .floating-label,
-input:not(:placeholder-shown) + .floating-label {
-  transform: translateY(-100%) scale(0.8);
-  color: #333;
-}
-
-input:focus {
-  border-color: #333;
-}
-
