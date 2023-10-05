@@ -11,7 +11,7 @@ html {
 }
 
 fieldset legend {
-  display: none;
+  visibility: hidden;
 }
 
 input.input-error, input.input-validation-error, input.is-touched.is-invalid, select.input-error, select.input-validation-error, select.is-touched.is-invalid {
