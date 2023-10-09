@@ -99,7 +99,7 @@ div#CardData {
 .page .form-group .form-input input, .page .form-group .form-input select {
   font-size: 1.5rem;
   border-radius: 10px;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 .page-card main {
