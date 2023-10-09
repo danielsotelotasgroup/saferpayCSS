@@ -95,6 +95,12 @@ html body footer .navitem.navitem-abort {
   margin-right: 10px;
 }
 
+html body footer .navitem.navitem-abort button {
+  border: 1px solid #e10000;
+  color: #e10000;
+  width: 100%;
+}
+
 .page .form-group .form-input {
   font-size: 1.2em;
   margin-left: 10px;
