@@ -66,6 +66,10 @@ html body .page main .icon-hint, html body form[class^=page-] main .icon-hint {
   text-transform: capitalize;
 }
 
+.btn.btn-next:active, .btn.btn-next:focus, .btn.btn-next:hover {
+  background: #e10000;
+}
+
 html body footer .navitem.navitem-next {
   text-align: right;
   margin-left: 10px;
